@@ -1,0 +1,267 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.back_img
+{
+    margin: 0;
+    width: 100%;
+    height: 80vh;
+}
+h1
+{
+    color: #F2F2F2;
+    font-family: 'Sacramento',sans-serif;
+    font-size: 60px;
+}
+h2
+{
+    color: #F2F2F2;
+    font-family: 'Montserrat',sans-serif;
+}
+h3
+{
+    color: #F2F2F2;
+    font-family: 'Montserrat',sans-serif;
+}
+h4
+{
+    color: #F2F2F2;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 2px;
+}
+p
+{
+    color: #F2F2F2;
+    font-family: 'Roboto',sans-serif;
+}
+.about
+{
+    background-color: orangered;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.25);
+}
+.about:hover
+{
+    background-color: orangered;
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg,#ffc371,red);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.25);
+}
+.about_me
+{
+    color: white;
+    text-decoration: none;
+}
+hr
+{
+    border: 5px dotted white;
+    border-bottom: 0;
+    width: 3%;
+    margin: 50px auto;
+}
+.middle
+{
+    text-align: center;
+    background-color: #3500D3;
+}
+.bottom
+{
+    text-align: center;
+    background-color: #F76C6C;
+    height: 17vh;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.skill_row
+{
+    flex: 33.33%;
+    padding: 5px;
+    margin: 10px auto;
+}
+.skills
+{
+    display: inline-flex;
+  }
+.skills2
+{
+    display: inline-flex;
+}
+.skill_row2
+{
+    flex: 33.33%;
+    padding: 5px;
+    margin: 10px auto;
+}
+.coder
+{
+    margin-left: 10%;
+}
+.python
+{
+    margin-left: 20%;
+}
+.cpp
+{
+    margin-left: 30%;
+}
+.Frontend
+{
+    margin-left: 10%;
+}
+.django
+{
+    margin-left: 20%;
+}
+.leadership
+{
+    margin-left: 30%;
+}
+.text
+{
+    margin-left: 10%;
+}
+.text2
+{
+    position: relative;
+    margin-left: 30%;
+}
+.text3
+{
+    position: relative;
+    margin-left: 50%;
+}
+.text4
+{
+    position: relative;
+    margin-left: 15%;
+}
+.text5
+{
+    position: relative;
+    margin-left: 35%;
+}
+.text6
+{
+    position: relative;
+    margin-left: 65%;
+}
+.Frontend
+{
+    border-radius: 50%;
+}
+.django
+{
+    border-radius: 50%;
+}
+.leadership
+{
+    border-radius: 50%;
+}
+.btn
+{
+    margin-bottom: 20px;
+    background-color: orangered;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.25);
+}
+.btn:hover
+{
+    background-color: orangered;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg,#ffc371,red);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.25);
+}
+.contact
+{
+    text-decoration: none;
+    color: white;
+}
+.footer
+{
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.copyright
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.linkedin 
+{
+    background: #F2F2F2;
+    color: white;
+    width: 25px;
+    margin-bottom: 8px;
+}
+.linkedin:hover
+{
+    background: #F2F2F2;
+    color: white;
+    width: 31px;
+    margin-bottom: 8px;
+}
+.github
+{
+    color: white;
+    width: 43px;
+}
+.github:hover
+{
+    color: white;
+    width: 50px;
+}
+.instagram 
+{
+    background: #F2F2F2;
+    width: 25px;
+    margin-bottom: 8px;
+}
+.instagram:hover 
+{
+    background: #F2F2F2;
+    width: 25px;
+    margin-bottom: 8px;
+    width: 32px;
+}
+@media screen and (max-width: 500px) 
+{
+    .skills
+    {
+      width: 100%;
+    }
+    .footer
+    {
+        height: 10vh;
+    }
+  }
